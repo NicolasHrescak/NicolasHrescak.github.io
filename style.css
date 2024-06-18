@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.header {
+    background-color: purple;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.barra {
+    display: flex; 
+    gap: 20px; 
+}
+.barra div {
+    padding: 10px 40px; 
+    cursor: pointer; 
+}
+.linkedin{
+  padding: 10px 10px; 
+  cursor: pointer;
+  margin-left: 700px;
+}
+.github{
+  padding: 10px 10px; 
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+body {
+    background-color: #b894b8; /* Roxo claro */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.conteudo {
+  font-size: 50px;
+  text-align: center;
+    padding: 80px 20px; /* Espaço suficiente para a barra fixa e conteúdo */
+}
+.conteudo2 {
+  font-size: 50px;
+  text-align: center;
+    padding: 30px 20px; /* Espaço suficiente para a barra fixa e conteúdo */
+}
+
+
+.imagem{
+  text-align: center;
+}
